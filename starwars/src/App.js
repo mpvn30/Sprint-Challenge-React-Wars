@@ -13,6 +13,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>THE STARWARS PROFILE CARDS</h1>
       <Person />
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './StarWars.css';
 import PersonCard from './PersonCard';
 // import { Container } from 'reactstrap';
 export default function Person(){
