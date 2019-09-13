@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One|Source+Code+Pro&display=swap');
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('../sw-bg.jpg');
+    font-family: 'Saira Stencil One', cursive;
+}
+.card-title{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+}
+.card-subtitle{
+    text-align: start;
+}
+
+
+
+/* Card, CardBody,
+  CardTitle, CardSubtitle, Button */
